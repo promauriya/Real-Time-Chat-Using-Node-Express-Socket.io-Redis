@@ -1,1 +1,1 @@
-# Real-Time-Chat-Using-Node-Socket.io-Redis
+# Real Time Chat Using Node, Socket.io, and Redis
