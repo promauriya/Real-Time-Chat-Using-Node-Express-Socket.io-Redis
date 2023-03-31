@@ -14,8 +14,6 @@ app.get('/', (req, res) => {
 server.listen(3001, () => {
     console.log('listening on *:3001');
 });
-var host = '3.253.136.167';
-var port = '6379';
 const connectionString = "redis://default:19qoDU4xLiOBHBGzam0mKskdeIKCoXTn@redis-19638.c3.eu-west-1-1.ec2.cloud.redislabs.com:19638";
 var io = serverIO(server, { transports: [ "polling", "websocket" ]});
 
