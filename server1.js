@@ -1,11 +1,7 @@
 const express = require('express');
 const serverIO = require('socket.io');
-// const { createClient } = require('redis');
-// const { createAdapter } = require("@socket.io/redis-adapter");
 const { createAdapter } = require('@socket.io/redis-adapter');
 const { createClient } = require('redis');
-// const { promisify }  = require('util');
-// require('dotenv').config();
 var cors = require('cors')
 var app = express();
 app.use(cors());
