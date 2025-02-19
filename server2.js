@@ -15,7 +15,7 @@ server.listen(3002, () => {
     console.log('listening on *:3002');
 });
 
-const connectionString = "redis://default:19qoDU4xLiOBHBGzam0mKskdeIKCoXTn@redis-19638.c3.eu-west-1-1.ec2.cloud.redislabs.com:19638";
+const connectionString = " ** Redis Url ** ";
 var io = serverIO(server, { transports: [ "polling", "websocket" ]});
 
 const pubClient = createClient({ url: connectionString });
