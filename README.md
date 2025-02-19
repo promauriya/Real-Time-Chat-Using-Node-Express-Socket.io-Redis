@@ -94,6 +94,3 @@ This project is licensed under the ISC License.
 ## Author
 
 Developed by Mauriya
-```
-
-This file gives a comprehensive overview of the setup, usage, and structure of your chat application. Let me know if you need more customization!
