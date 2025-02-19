@@ -1,4 +1,4 @@
-const express = require('express');
+isconst express = require('express');
 const serverIO = require('socket.io');
 const { createAdapter } = require('@socket.io/redis-adapter');
 const { createClient } = require('redis');
@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 server.listen(3001, () => {
     console.log('listening on *:3001');
 });
-const connectionString = "redis://default:19qoDU4xLiOBHBGzam0mKskdeIKCoXTn@redis-19638.c3.eu-west-1-1.ec2.cloud.redislabs.com:19638";
+const connectionString = " ** REDIS URL ** ";
 var io = serverIO(server, { transports: [ "polling", "websocket" ]});
 
 const pubClient = createClient({ url: connectionString });
